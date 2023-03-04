@@ -1,0 +1,27 @@
+[package]
+name = "personal-cookbook"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwasm = "0.5.0"
+gloo = "0.8.0"
+
+[dependencies.yew]
+git = "https://github.com/yewstack/yew/"
+branch = "master"
+features = ["csr"]
+
+[dependencies.yew-router]
+git = "https://github.com/yewstack/yew/"
+branch = "master"
+
+[dependencies.serde]
+version = "1.0.152"
+features = ["derive"]
+
+[dependencies.web-sys]
+version = "0.3.61"
+features = ["HtmlInputElement"]
