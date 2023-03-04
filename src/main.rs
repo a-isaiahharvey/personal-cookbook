@@ -6,19 +6,16 @@ use yew_router::prelude::*;
 
 #[derive(Clone, Routable, PartialEq)]
 enum Route {
-    #[at("/")]
+    #[at("/personal-cookbook/")]
     Home,
-    #[at("/about")]
-    About,
     #[not_found]
-    #[at("/404")]
+    #[at("/personal-cookbook/404")]
     NotFound,
 }
 
 fn switch(routes: Route) -> Html {
     match routes {
         Route::Home => pages::home::page(),
-        Route::About => html! { <p>{ "About" }</p> },
         Route::NotFound => html! { <p>{ "Not Found" }</p> },
     }
 }
