@@ -48,7 +48,7 @@ pub fn page() -> Html {
     let trending_recipes = vec![
         TrendingRecipe {
             title: "Salted fish with Rice",
-            image: "/images/food/salted-fish-with-rice.png",
+            image: "images/food/salted-fish-with-rice.png",
             ingredients: vec![
                 "white rice".to_string(),
                 "salted fish".to_string(),
@@ -58,12 +58,12 @@ pub fn page() -> Html {
         },
         TrendingRecipe {
             title: "One Bowl Chocolate Cake",
-            image: "/images/food/chocolate-cake.png",
+            image: "images/food/chocolate-cake.png",
             ingredients: vec![],
         },
         TrendingRecipe {
             title: "Pelau",
-            image: "/images/food/pelau.png",
+            image: "images/food/pelau.png",
             ingredients: vec![],
         },
     ];
