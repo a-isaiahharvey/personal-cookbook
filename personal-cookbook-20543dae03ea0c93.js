@@ -834,7 +834,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('personal-cookbook-78866132f8bf92c8_bg.wasm', import.meta.url);
+        input = new URL('personal-cookbook-20543dae03ea0c93_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
